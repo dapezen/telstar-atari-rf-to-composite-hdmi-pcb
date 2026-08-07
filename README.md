@@ -19,11 +19,11 @@ one 220 uF capacitor.
 
 HOW TO CONFIGURE FOR TELSTAR
 Note: THE PCB BOARD IS ALSO CONFIGURED TO SUPPORT ATARI 2600. YOU WILL NOT USE COLOR. YOU MUST CONNECT LUMA TO EACH OF THE 3 LUMA SIGNALS.
-If you refer to what whatwiresarewhat.png. You will see 4 wires to the right at a junction. Red is power, black is ground, yellow is luma, and blue is sync. The yellow jack is video output.
-Sync connects two two ports of the chip by default, as well as LUMA 2, Luma. Luma 1 connects to one gate of the chip.
+If you refer to what whatwiresarewhat.png. You will see 4 wires towards the bottom of the photo all running through the same encasing. Red is power, black is ground, yellow is inverted luma, and blue is inverted sync. The yellow jack is video output.
+Sync connects to two ports of the chip by default, as well as LUMA 2. Luma 1, and Luma 0 each connect to one different gate of the chip.
 LEFT HEADER IS POWER, RIGHT HEADER IS GROUND
 Look at the Circuit Shematic listed in github files.
-To the left are our inputs which are 4 luma signals, and 2 sync signals.
+To the left are our inputs which are 4 inverted luma signals, and 2 inverted sync signals.
 The junction after the 15k resistor network where they all connect is going to be where your cd4049 chip is going to be.
 Each input must be inverted with the cd4049 chip after their respective resistor.
 The rest you can see for yourself, having a 100 gain transistor and the last 75 ohm resistor being our load.
