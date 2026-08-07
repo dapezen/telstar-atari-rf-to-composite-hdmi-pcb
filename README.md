@@ -27,6 +27,8 @@ To the left are our inputs which are 4 inverted luma signals, and 2 inverted syn
 The junction after the 15k resistor network where they all connect is going to be where your cd4049 chip is going to be.
 Each input must be inverted with the cd4049 chip after their respective resistor.
 The rest you can see for yourself, having a 100 gain transistor and the last 75 ohm resistor being our load.
+Once you have that solder the composite out from the PCB board to the yellow right directly right of the RCA jack on the Telstar board.
+Then you should be able to use the RCA jack to plug to a HDMI converter and you're all set!
 
 HOW TO ORDER
 To use you must upload the gerber file to https://cart.jlcpcb.com. There you can order it.
