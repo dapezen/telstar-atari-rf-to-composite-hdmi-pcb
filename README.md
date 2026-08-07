@@ -1,7 +1,7 @@
 # telstar-atari-rf-to-composite-pcb
 A PCB file you can use to order a PCB to make your Atari 2600 or Telstar able to output composite video.
 
-NOTE: THIS IS TO CONVERT RF TO COMPOSITE YOU WILL NEED HDMI DECODER IF YOU ARE USING HDMI.
+NOTE: THIS IS TO CONVERT RF TO COMPOSITE YOU WILL NEED HDMI CONVERTER IF YOU ARE USING HDMI.
 
 PARTS FOR TELSTAR
 One tesltar (obviously)
